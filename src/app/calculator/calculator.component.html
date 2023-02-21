@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="card">
+    <div class="header">CALCULATOR</div>
+    <div class="container">
+        <div class="form">
+            <input [(ngModel)] = 'num1' type="number" placeholder="Enter first number" name="num1" class="input"><br>
+            <input [(ngModel)] = 'num2' type="number" placeholder="Enter second number" name="num2" class="input">
+        </div>
+        <div class="buttons">
+            <button style="background-color: aquamarine;" class = "btn" (click) = "addition()">Sum</button>
+            <button style="background-color: yellowgreen;" class = "btn" (click) = "subtraction()">Sub</button>
+            <button style="background-color: burlywood;" class = "btn" (click) = "multiplication()">Mul</button>
+            <button style="background-color: rgb(134, 200, 212);" class = "btn" (click) = "division()"> Div </button>
+            
+        </div>
+        <div class="result">
+        <h4>Result : {{result}} </h4>
+    </div>
+    </div> 
+</div>
+</body>
+</html>
+

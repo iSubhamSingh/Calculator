@@ -1,21 +1,9 @@
 
 
-body{
-    
-    align-items: center;
-    background: url("https://wallpapercave.com/wp/wp7064088.jpg");
-}
-/* @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Press+Start+2P&display=swap');
-body{
-    
-    align-items: center;
-    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-} */
-
-/* .header{
+.header{
     padding: 20px;
-    margin-left: 350px;
-    font-family: 'Diplomata SC', cursive;
+    margin-left: 450px;
+    font-family: 'Diplomata SC';
     font-size: 50px;
 
 }
@@ -65,4 +53,4 @@ body{
     color: rgb(187, 196, 198);
     font-family: 'Diplomata SC';
 
-} */
+}
